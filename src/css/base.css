@@ -11,7 +11,7 @@
 body {
 	margin: 0;
 	--color-text: #111;
-	--color-bg: #d8d2cd;
+	--color-bg: #303b1a;
 	--color-link: #b41717;
 	--color-link-hover: #000;
 	--color-bg-alt: #c3bcbc;
@@ -248,7 +248,7 @@ a:focus-visible {
 	position: relative;
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(8,1fr);
+	grid-template-columns: repeat(6,1fr);
 }
 
 .grid__item {
@@ -268,9 +268,16 @@ a:focus-visible {
 	will-change: transform, opacity;
 }
 
-.demo-1 .grid__item-img {
-	filter: contrast(70%);
+.img-horiz {
+	position: relative;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1;
+	background-size: cover;
+	background-position: 50% 50%;
+	will-change: transform, opacity;
 }
+
 
 .cover {
 	position: fixed;
@@ -287,7 +294,7 @@ a:focus-visible {
 
 .cover__title {
 	font-family: novecento-sans-wide, sans-serif;
-	font-size: 8vw;
+	font-size: 5vw;
 	font-weight: 600;
 	margin: 0;
 }
