@@ -34,9 +34,9 @@ body {
 }
 
 .demo-3 {
-	--color-text: #000000;
+	--color-text: #6c0000;
     --color-text-alt: #000000;
-    --color-bg: #846c64;
+    --color-bg: #303b1a;
     --color-bg-alt: #d1d1d1;
     --color-link-hover: #000;
 	--color-link: #fff;
